@@ -16,7 +16,7 @@ modèles génératifs appliqués aux jeux de données **Binary AlphaDigits** et
   construit à partir de RBM.
 - `principal_DNN_MNIST.py` : implémentation du DNN et de son entraînement sur
   MNIST.
-- `Rapport_TP_DNN_AlphaDigit_MNIST.pdf` : rapport du projet.
+- `deep-learning-rbm-dbn-dnn-report.pdf` : rapport du projet.
 
 ## Prérequis
 
@@ -54,6 +54,6 @@ jupyter notebook
 Ouvrir ensuite `P4_AlphaDigit.ipynb` ou `P5_MNIST.ipynb` et exécuter les
 cellules dans l'ordre.
 
-## Nom recommandé du dépôt
+## Repository
 
-`TP-DNN-AlphaDigit-MNIST`
+`deep-learning-rbm-dbn-dnn`
