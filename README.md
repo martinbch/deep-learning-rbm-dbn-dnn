@@ -42,40 +42,17 @@ The project is organized around the following objectives:
   fine-tuning for MNIST.
 - `deep-learning-rbm-dbn-dnn-report.pdf`: project report.
 
-## Data
+## Datasets
 
-The datasets are not included in this repository. The notebooks require the
-Binary AlphaDigits data and the binary MNIST files to be available locally.
-Dataset paths must be configured before running the experiments.
+The project uses two standard benchmark datasets:
 
-## Setup and dependencies
+- **Binary AlphaDigits**: a collection of binary images representing handwritten
+  letters and digits, used for RBM and DBN training and image generation.
+- **MNIST**: a dataset of handwritten digits, used to train and evaluate the
+  DNN classifier.
 
-Python 3.10 or later is recommended. The main dependencies are:
-
-```text
-numpy
-scipy
-matplotlib
-tqdm
-jupyter
-```
-
-Install the dependencies with:
-
-```bash
-pip install numpy scipy matplotlib tqdm jupyter
-```
-
-## Running the project
-
-From the repository root, start Jupyter:
-
-```bash
-jupyter notebook
-```
-
-Then open `P4_AlphaDigit.ipynb` or `P5_MNIST.ipynb` and run the cells in
-order after configuring the dataset paths.
+The datasets are not included in this repository. They are used as inputs for
+the experiments presented in the notebooks.
 
 ## Authors
 
